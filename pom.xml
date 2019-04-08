@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lacForever</groupId>
-    <artifactId>springboot_micro</artifactId>
+    <artifactId></artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.3.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <dependencyManagement>
@@ -26,7 +26,9 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
+    <modules>
+        <module>a_springcloud_micro_user</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
